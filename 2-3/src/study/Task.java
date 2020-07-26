@@ -20,5 +20,6 @@ System.out.println("plusメソッド引数が三個の場合:"+Calculator.plus(a
 
 
 
+
     }
 }
