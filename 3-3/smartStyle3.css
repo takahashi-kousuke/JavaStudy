@@ -1,0 +1,104 @@
+
+    @media screen and (max-width: 479px){
+    
+        /* reset.css*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .wrapper {
+            margin: 0 auto;
+            width: 200px;
+        }
+        
+        /* header */
+        .header {
+            height: 200px;
+            background-color: #141f40;
+            position: relative;
+        }
+        
+        .nakami1{
+        
+            background-color: white;
+            height: 160px;
+            width: 60px;
+            margin-left: 40px;
+            position: absolute;
+            top: 20px;
+            left: 30px;
+        
+        
+        }
+        
+        .nakami1nonakami{
+            background-color: red;
+            height: 40px;
+            width: 40px;
+            float: none;
+            margin-bottom: 10px;
+        
+        }
+        
+        .nakamiX{
+            padding: 10px 0 10px  10px;
+        }
+        
+        
+        
+        /* main */
+        .main_left {
+            height: 100px;
+            width: 200px;
+            background-color: #80bfa8;
+            float: left;
+        }
+        
+        .center_bottom {
+            height: 210px;
+            width: 200px;
+            background-color: #8c2727;
+            float: left;
+            position: relative;
+        }
+        .center_nakamiX{
+            position: absolute;
+            top: 20px;
+            left: 30px;
+
+
+        }
+
+
+
+
+        
+         .center_nakami{
+           background-color: white;
+           padding: 5px;
+           margin-bottom: 10px;
+   
+         }
+                 
+         .bottomnakami{
+            background-color: orange;
+            height: 40px;
+            width: 130px;
+           
+         }
+        
+        
+        
+        .clearfix::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        
+        /* footer */
+        .footer {
+            height: 100px;
+            background-color: #d98d30;
+        }
+        
