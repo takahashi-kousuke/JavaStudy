@@ -32,6 +32,7 @@ public class Study {
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
          * 連想配列の変数shopmapにキーと値をそれぞれ入れて、キーはshouhinListの01の牛乳で値は180
+         * 
          *
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
