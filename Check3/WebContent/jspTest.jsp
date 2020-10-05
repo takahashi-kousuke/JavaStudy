@@ -12,6 +12,7 @@
 <%@ include file="header.jsp" %>
 
 <!-- name、idの入力エリアを作成しなさい -->
+
 <div class="main">
 	<table>
 		<tr>

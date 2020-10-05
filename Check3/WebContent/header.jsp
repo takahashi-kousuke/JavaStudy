@@ -19,6 +19,7 @@
       		String formatDate = sdf.format(date);
    			out.print(formatDate); %>
 	</div>
+</div>
 
 </header>
 
