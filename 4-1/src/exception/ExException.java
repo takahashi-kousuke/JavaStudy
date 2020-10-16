@@ -99,7 +99,6 @@ public class ExException {
          sc.close();
          System.out.println("お疲れ様でした！");
          }
-
     /**
     * 問①: 以下のルールに沿ってNullPointerExceptionを投げるメソッドを実装しなさい。
     * ルール1: private static void 任意のメソッド名 throws 上位へ投げるExceptionクラス名 { NullPointerExceptionを発生させる処理 }
