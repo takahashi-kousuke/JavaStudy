@@ -39,5 +39,6 @@ let car = {
     num : 1234,
 };
 
+console.log(car);
 console.log("ガソリンは"+car.gass+"です");
 console.log("ナンバーは"+car.num+"です");
