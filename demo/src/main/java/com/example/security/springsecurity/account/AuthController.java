@@ -25,12 +25,12 @@ public class AuthController {
         return "redirect:/top";
     }
 
-    @GetMapping("/login")//ログインページに飛ぶやつ
+    @GetMapping("/login")//ログインページに飛ぶやつ　//Get→情報隠さずに送る
     public String login() {
         return "login";
     }
 
-    @PostMapping("/login")//ログインボタン押して失敗したときに情報持ったままログイン失敗画面に移るやつ
+    @PostMapping("/login")//ログインボタン押して失敗したときに情報持ったままログイン失敗画面に移るやつ　//Post→情報を隠して送る
     public String loginPost() {
         return "redirect:/login-error";
     }

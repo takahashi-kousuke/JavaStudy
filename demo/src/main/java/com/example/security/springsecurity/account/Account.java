@@ -25,7 +25,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 //実行時に宣言した各フィールド変数がカラムとして作成される
 //問１－１ DB設計に必要なアノテーションを記述
-@Entity//DBのテーブル＝JPA
+@Entity//DBのテーブル＝JPA →オブジェクト指向のJAVAと表タイプのDBの仲介業者
 @Table(name="accounts")//ただの箱だったテーブルに名前を付けた
 public class Account implements UserDetails {
 
@@ -36,7 +36,7 @@ public class Account implements UserDetails {
 
     //問１－２ プライマリーキーを設定するアノテーションを記述
     @Id
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false, unique = true)//DBカラムに名前や制約を設定
     private String username;
 
     @Column(nullable = false)
